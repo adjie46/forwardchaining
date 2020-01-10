@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Aplikasi Diagnosa Penyakit Mata</string>
+    <string name="text_sign_in">PENDAFTARAN</string>
+    <string name="text_sign_in_subtitle">Selamat datang, \nsilahkan masukkan nama Anda</string>
+    <string name="text_hint_email_field">Nama Lengkap</string>
+    <string name="text_hint_password_field">Kata sandi</string>
+    <string name="text_btn_forgot_password">Lupa kata sandi</string>
+    <string name="text_btn_sign_in">SIMPAN</string>
+    <string name="text_or">----- Atau -----</string>
+    <string name="text_not_have_an_account">Belum memiliki akun? <b><font color='#039BE5'>Daftar</font></b></string>
+    <string name="text_sign_up_subtitle">Selamat datang, \nbergabunglah bersama kami</string>
+    <string name="text_sign_up_title">Daftar</string>
+    <string name="text_hint_confirm_password_field">Konfirmasi kata sandi</string>
+    <string name="text_privacy_and_policy">Dengan mendaftar Anda berarti menyetujui\n<b><font color='#039BE5'>Kebijakan</font></b> dan <b><font color='#039BE5'>Privasi</font></b></string>
+    <string name="text_btn_sign_up">Daftar</string>
+    <string name="text_have_an_account">Sudah memiliki akun? <b><font color='#039BE5'>Masuk</font></b></string>
+    <string name="msg_is_empty">Email atau katasandi tidak boleh kosong</string>
+    <string name="msg_login_success">Anda Berhasil Masuk</string>
+    <string name="msg_fb_btn_click">Fb Button Clicked</string>
+    <string name="msg_gg_btn_click">Google Button Clicked</string>
+    <string name="msg_email_empty">Email tidak boleh kosong</string>
+    <string name="msg_pwd_empty">Katasandi tidak boleh kosong</string>
+    <string name="msg_register_success">Pendaftaran Berhasil</string>
+    <string name="home_name_text">ADJIE KURNIAWAN</string>
+    <string name="home_btn_logout_text">KELUAR</string>
+    <string name="home_email_text">adjie46@gmail.com</string>
+    <string name="txt_rabunjauh_solusi">tes</string>
+    <string name="msgdiagnosa"> Anda di Diagnosa Terkena Penyakit</string>
+    <string name="msg_accuracy">Dengan Akurasi Diagnosa sebesar </string>
+    <string name="msg_no_choice">Kamu Belum Memilih Gejala Penyakit</string>
+    <string name="title_diagnosa">Diagnosa Penyakit</string>
+    <string name="please_wait">Silahkan Tunggu</string>
+</resources>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/iv_auth_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_auth_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="@dimen/margin_auth"
+            android:layout_marginLeft="@dimen/margin_auth"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_auth_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_auth"
+            android:layout_marginLeft="@dimen/margin_auth"
+            android:layout_marginTop="@dimen/margin_auth_title"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="DAFTAR DIAGNOSA"
+            android:textColor="@color/colorTextORIcon"
+            android:textSize="@dimen/text_title_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="jelly_bean" />
+
+        <TextView
+            android:id="@+id/tv_auth_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_sans_reguler"
+            android:text="Silahkan Pilih Diagonsa yang anda alami"
+            android:textColor="@color/colorTextORIcon"
+            android:textSize="@dimen/text_subtitle_size"
+            app:layout_constraintStart_toStartOf="@+id/tv_auth_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_auth_title"
+            tools:targetApi="jelly_bean" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_auth_bg">
+
+            <CheckBox
+                android:id="@+id/G01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penglihatan buram ketika melihat benda dalam jarak jauh" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harus menyipitkan mata atau sebagian menutup kelopak mata untuk melihat dengan jelas" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sakit kepala karena kelelahan mata" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kesulitan melihat saat berkendara, terutama pada malam hari" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terus-menerus menyipitkan mata" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harus duduk lebih dekat dengan televisi, layar lebar, atau di depan kelas" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tampak tidak menyadari adanya benda jauh" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mengedipkan mata secara berlebihan" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terus menggosok mata" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penglihatan tidak fokus ketika melihat objek yang dekat" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata terasa tegang, sakit atau terbakar" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata lelah atau sakit kepala usai melihat pada jarak dekat dalam waktu lama, misalnya menulis, membaca atau menggunakan Komputer" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pandangan kabur seperti berkabut" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warna di sekitar terlihat memudar" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melihat lingkaran cahaya di sekeliling sumber cahaya" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pandangan ganda" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penurunan penglihatan di malam hari" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/G18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sering mengganti ukuran kacamata" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/btnDiagonsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_auth"
+                android:layout_marginTop="@dimen/margin_auth"
+                android:layout_marginEnd="@dimen/margin_auth"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_auth_btn"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="DIAGNOSA PENYAKIT"
+                android:textColor="@color/colorTextORIcon"
+                android:textSize="@dimen/text_btn_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_name_regigster"
+                tools:targetApi="jelly_bean" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

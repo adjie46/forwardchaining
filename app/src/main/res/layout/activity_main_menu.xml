@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_auth_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_auth_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/btnLogout"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_exit_to_app_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_auth_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_auth"
+        android:layout_marginTop="@dimen/margin_auth_title"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="MAIN MENU"
+        android:textColor="@color/colorTextORIcon"
+        android:textSize="@dimen/text_title_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="@dimen/margin_auth"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:id="@+id/tv_auth_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_reguler"
+        android:text="Silahkan Pilih Menu"
+        android:textColor="@color/colorTextORIcon"
+        android:textSize="@dimen/text_subtitle_size"
+        app:layout_constraintStart_toStartOf="@+id/tv_auth_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_auth_title"
+        tools:targetApi="jelly_bean" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/iv_auth_bg">
+
+        <Button
+            android:id="@+id/btnConsult"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="@dimen/margin_auth"
+            android:layout_marginEnd="@dimen/margin_auth"
+            android:background="@drawable/bg_btn_konsultasi"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="KONSULTASI"
+            android:textColor="@color/colorTextORIcon"
+            android:textSize="@dimen/text_btn_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_auth_bg"
+            tools:targetApi="jelly_bean" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnsolusi"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="@dimen/margin_auth"
+            android:layout_marginEnd="@dimen/margin_auth"
+            android:background="@drawable/bg_btn_solusi"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="SOLUSI"
+            android:textColor="@color/colorTextORIcon"
+            android:textSize="@dimen/text_btn_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_auth_bg"
+            tools:targetApi="jelly_bean" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
